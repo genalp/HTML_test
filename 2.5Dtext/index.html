@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>2.5Dtext</title>
+	<link rel="stylesheet" href="app.css" type="text/css">	
+</head>
+	<div class="text">
+		<p>GENALP</p>
+	</div>
+	<script>
+		let total = 30;
+		let shadow = '';
+		for(let i=1;i<=total;i++){
+			shadow += `-${i}px ${i}px 0 #eee,`;
+		}
+		shadow = shadow.slice(0, -1);
+		const text = document.querySelector('.text');
+		text.style.textShadow = shadow;
+	</script>
+<body>
+</body>
+</html>
