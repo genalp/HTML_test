@@ -1,14 +1,21 @@
-*bg{
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+/*整体控制歌曲排行版模块*/
+.bg{
     width: 600px;
     height: 550px;
+    border-radius: 50%;
     background-image: repeating-radial-gradient(circle at 50% 50%,#333,#000 1%);
     margin: 50px auto;
     padding: 40px;
-    border-radius: 50%;
     padding-top: 50px;
     border: 10px solid #ccc;
 }
-
+/*歌曲排名部分*/
 ul{
     width: 372px;
     height: 530px;
@@ -21,7 +28,7 @@ ul{
 ul li{
     width: 372px;
     height: 55px;
-    background: #504d58 url(yinfu.jpg)no-repeat 70px 20px;
+    background: #504d58;
     margin-bottom: 2px;
     font-size: 18px;
     color: #d6d6d6;
@@ -29,16 +36,16 @@ ul li{
     text-align: center;
     font-family: "微软雅黑";
 }
-
-ul.tp{
+/*需要单独控制的列表*/
+ul .tp{
     width: 372px;
     height: 247px;
     background: #fff;
     background-image: url(yinfu.jpg);
     background-repeat: no-repeat;
-    background-position: 87px 16px;
-    border-radius: 30px 30px;
+    background-position: center center;
+    background-size: 300px 300px;
 }
-ul.yj{
+ul .yj{
     border-radius: 0 0 30px 30px;
 }
