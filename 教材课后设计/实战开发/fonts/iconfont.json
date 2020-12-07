@@ -1,0 +1,58 @@
+{
+  "id": "2249315",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "420549",
+      "name": "iconfont-fangdajing",
+      "font_class": "iconfontfangdajing",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "808879",
+      "name": "箭头 (12",
+      "font_class": "jiantou1",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "808880",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "1473537",
+      "name": "音乐",
+      "font_class": "yinyue",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "3507053",
+      "name": "Facebook",
+      "font_class": "Facebook",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10156373",
+      "name": "喇叭",
+      "font_class": "laba",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "13146530",
+      "name": "鸽子",
+      "font_class": "gezi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
